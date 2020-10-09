@@ -1,0 +1,347 @@
+@font-face {
+  font-family: SwissraNormal;
+  src: url('../../fonts/Swissra Normal.otf');
+}
+
+@font-face {
+  font-family: SwissraLight;
+  src: url('../../fonts/Swissra Light.otf');
+}
+
+#rightbox {
+	  padding:0 96px;
+}
+
+.logo {
+  text-align: center;
+  line-height: 740px;
+  background-image: url('../../assets/login_bg.jpg'); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-size: 100% 100%;
+  min-height: 754px; /* You must set a specified height */
+}
+
+.logo img {
+	width: 55%;
+	height: 55%;
+}
+
+#leftbox {
+	 text-align: center;
+	 padding-right: 80px;
+
+}
+
+#leftbox .title {
+	margin-top: 140px;
+}
+
+#leftbox .title .head1 {
+	   font-family: SwissraNormal;
+	       font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 20px;
+      
+}
+
+#leftbox .title .head2 {
+	  font-family: SwissraLight	;
+	      font-size: 25px;
+   
+}
+
+
+#leftbox .content {
+margin-top: 100px;
+
+}
+
+#leftbox .content .loginBtns .phoneLogin{
+border: 2px solid #929292;
+    border-radius: 24px;
+    height: 90px;
+    line-height: 90px;
+    font-family: SwissraLight;
+        font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 25px;
+    margin-bottom: 40px;
+    color: #000;
+
+}
+
+#leftbox .content .loginBtns a {
+	text-decoration: none;
+}
+
+#leftbox .content .loginBtns .phoneLogin:hover {
+	cursor: pointer;
+}
+
+#leftbox .content .loginBtns .emailLogin{
+border: 2px solid #929292;
+    border-radius: 24px;
+    height: 90px;
+    line-height: 90px;
+    font-family: SwissraLight;
+        font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 25px;
+}
+
+#leftbox .content .loginBtns .emailLogin:hover {
+	cursor: pointer;
+}
+
+#leftbox .content .footerBtns { margin-top: 50px; }
+#leftbox .content .footerBtns h3 {
+	 font-family: SwissraLight;
+        font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+#leftbox .content .footerBtns button {
+
+	border: navajowhite;
+    border-radius: 26px;
+    background-color: #FF3950;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    width: 150px;
+    height: 60px;
+}
+
+#leftbox .phoneloginContent {
+	margin-top: 50px;
+
+}
+
+#leftbox .phoneloginContent .label {
+      text-align: end;
+          margin-right: 10px;
+}
+#leftbox .phoneloginContent .label .phonelabel{
+  font-family: SwissraLight;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#leftbox .phoneloginContent .loginBtns .phoneLogin{
+border: 2px solid #929292;
+    border-radius: 10px;
+    height: 90px;
+    line-height: 90px;
+    
+        font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 25px;
+    margin-top: 10px;
+    
+}
+
+
+
+#leftbox .phoneloginContent .loginBtns input{
+color: red;
+    width: 100%;
+    height: 43px;
+    border: none;
+   
+        padding: 0 16px;
+    
+}
+
+#countryCode {
+margin-top: 11px;
+    margin-left: 21px;
+}
+
+#countryCode img{
+border-radius: 50px;
+    width: 40%;
+
+}
+
+.dd-selected-description {
+	    margin-top: 12px;
+    margin-right: 26px;
+    position: relative;
+}
+
+
+.dd-pointer-down{
+    border-top: solid 5px #BEC9D1 !important;
+}
+
+}
+
+.dd-selected {
+   background-color: white !important;
+}
+
+.dd-select {
+   border: none !important; 
+       background-color: white !important;
+}
+
+.dd-options {
+	border: none !important;
+	border-bottom: none !important;
+	background-color: white !important;
+}
+
+.dd-option {
+	border: none !important;
+	border-bottom: none !important;
+	background-color: white !important;
+}
+
+#leftbox .phoneloginContent .footerBtns{ margin-top: 50px; }
+
+#leftbox .phoneloginContent .footerBtns h3 {
+	 font-family: SwissraLight;
+        font-size: 20px;
+    font-weight: 700;
+    color: #929292;
+    
+}
+
+#leftbox .phoneloginContent a {
+	 text-decoration: none;
+    
+}
+
+#leftbox .phoneloginContent .footerBtns h3:hover {
+	cursor: pointer;
+}
+#leftbox .phoneloginContent .footerBtns button {
+
+	border: navajowhite;
+    border-radius: 26px;
+    background-color: #FF3950;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    width: 200px;
+    height: 60px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+/* Media Query*/
+
+@media screen and (max-width: 992px) {
+   #countryCode {
+    margin-top: 1px !important;
+        width: 75% !important;
+}
+
+
+.dd-selected-description {
+    margin-top: 20px;
+        margin-right: 21px;
+}
+
+#leftbox {
+    padding-right: 19px;
+}
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+   #countryCode {
+    margin-top: 1px !important;
+        width: 75% !important;
+}
+
+
+.dd-selected-description {
+    margin-top: 20px;
+        margin-right: 21px;
+}
+
+#leftbox {
+       margin: 0 auto;
+}
+
+}
+
+
+@media screen and (min-width: 1149px) {
+
+.dd-selected-description {
+           margin-right: 13px;
+}
+
+#leftbox .content .loginBtns .phoneLogin {
+
+	    font-size: 14px;
+}
+
+#leftbox .content .loginBtns .emailLogin {
+
+	    font-size: 14px;
+	    padding-right: 20;
+}
+	
+}
+
+
+@media screen and (min-width: 1143px) and (max-width: 1312px){
+
+
+}
+
+@media screen and (min-width: 989px) and (max-width: 1143px){
+
+#countryCode {
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.dd-selected-description {
+	margin-top: 0;
+    width: 37px;
+    position: relative;
+    margin-right: 2px;
+    top: -21px;
+    right: -25px;
+}
+
+.dd-selected {
+   
+     padding: 0px; 
+  
+}
+
+
+.dd-pointer {
+  
+    right: -21px !important;
+    top: 36% !important;
+   
+}
+
+
+#leftbox .content .loginBtns .phoneLogin {
+
+	    font-size: 12px;
+}
+
+#leftbox .content .loginBtns .emailLogin {
+
+	    font-size: 12px;
+	    padding-right: 0;
+}
+	
+}
+
